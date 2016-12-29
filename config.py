@@ -1,0 +1,1 @@
+URL_FORMAT="http://www.myntra.com/%s?userQuery=true"
