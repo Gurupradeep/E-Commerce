@@ -1,0 +1,625 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+hr{
+border:0;
+border-top:1px solid #ccc;
+margin-bottom:-10px
+}
+div#main{
+width:828px;
+height:764px;
+margin:0 auto;
+font-family:'Raleway', sans-serif;
+}
+div#first{
+width:350px;
+height:740px;
+padding:0 25px 20px;
+float:left;
+text-align:center
+}
+div#second {
+width: 424px;
+height: 744px;
+margin-left: 75%;
+}
+.add{
+margin-top:30%;}
+h1{
+ font-family: 'Raleway', sans-serif;
+}
+h3{
+ font-family: 'Raleway', sans-serif;
+}
+
+/* search button 1 */
+
+.searchbox_1{
+    background-color: #fffbf8;
+    padding:13px;
+    width:335px;
+    margin: 0 auto;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border-radius:6px;
+    -webkit-box-shadow:
+        0 2px 4px 0 rgba(72, 72, 72, 0.83),
+        0 10px 15px 0 rgba(126, 126, 126, 0.12),
+        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+    -moz-box-shadow: 
+        0 2px 4px 0 rgba(72, 72, 72, 0.83),
+        0 10px 15px 0 rgba(126, 126, 126, 0.12),
+        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+    box-shadow: 
+        0 2px 4px 0 rgba(72, 72, 72, 0.83),
+        0 10px 15px 0 rgba(126, 126, 126, 0.12),
+        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+}
+.search_1{
+    width:250px;
+    height:30px;
+    padding-left:15px;
+    border-radius:6px;
+    border:none;
+    color:#0F0D0D;;
+    font-weight:500;
+    background-color:#E2EFF7;;
+    -webkit-box-shadow:
+        0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+        0 1px 1px 0 #fff,
+        0 2px 2px 1px #fafafa,
+        0 2px 4px 0 #b2b2b2 inset,
+        0 -1px 1px 0 #f2f2f2 inset,
+        0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+    -moz-box-shadow: 
+        0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+        0 1px 1px 0 #fff,
+        0 2px 2px 1px #fafafa,
+        0 2px 4px 0 #b2b2b2 inset,
+        0 -1px 1px 0 #f2f2f2 inset,
+        0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+    box-shadow:
+        0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+        0 1px 1px 0 #fff,
+        0 2px 2px 1px #fafafa,
+        0 2px 4px 0 #b2b2b2 inset,
+        0 -1px 1px 0 #f2f2f2 inset,
+        0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+}
+.submit_1{
+    width:35px;
+    height:30px;
+    background-image:url(img/search-btn.png);
+    background-repeat: no-repeat;
+    background-position: 17px 2px;
+    background-color:transparent;
+    -webkit-background-size:20px 20px;
+    background-size:20px 20px;
+    border:none;
+    cursor:pointer;
+}
+.search_1:focus{
+    outline:0;
+}
+
+/* Second Search box */
+
+.searchbox_2{
+    background-color:rgba(174, 186, 172, 0);
+    padding:13px;
+    width:335px;
+    margin:30px auto;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border-radius:6px;
+    -webkit-box-shadow:0 2px 4px 0 rgba(72, 72, 72, 0.83),
+        0 10px 15px 0 rgba(126, 126, 126, 0.12),
+        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+    -moz-box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.83),
+        0 10px 15px 0 rgba(126, 126, 126, 0.12),
+        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+    box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.83),
+        0 10px 15px 0 rgba(126, 126, 126, 0.12),
+        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
+        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+}
+
+.search_2{
+    width:250px;
+    height:30px;
+    padding-left:15px;
+    border-radius:6px;
+    border:none;
+    color:  rgb(50, 48, 48);
+    font-weight:500;
+    background-color: #FCE2E2;
+    -webkit-box-shadow: 0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+        0 1px 1px 0 #fff,
+        0 2px 2px 1px #fafafa,
+        0 2px 4px 0 #b2b2b2 inset,
+        0 -1px 1px 0 #f2f2f2 inset,
+        0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+    -moz-box-shadow: 0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+        0 1px 1px 0 #fff,
+        0 2px 2px 1px #fafafa,
+        0 2px 4px 0 #b2b2b2 inset,
+        0 -1px 1px 0 #f2f2f2 inset,
+        0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+    box-shadow: 0 -2px 2px 0 rgba(199, 199, 199, 0.55),
+        0 1px 1px 0 #fff,
+        0 2px 2px 1px #fafafa,
+        0 2px 4px 0 #b2b2b2 inset,
+        0 -1px 1px 0 #f2f2f2 inset,
+        0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
+}
+.submit_2{
+    width:35px;
+    height:30px;
+    background-image:url(img/search-btn.png);
+    background-repeat: no-repeat;
+    background-position: 17px 2px;
+    background-color:transparent;
+    -webkit-background-size:20px 20px;
+    background-size: 18px 20px;
+    border:none;
+    cursor:pointer;
+}
+.search_2:focus{
+    outline:0;
+}
+
+
+
+
+#search-form_3 {
+    background: #e1e1e1; /* Fallback color for non-css3 browsers */
+    width: 365px;
+    margin: 0 auto;
+
+    /* Gradients */
+    background: -webkit-gradient( linear,left top, left bottom, color-stop(0, rgb(243,243,243)), color-stop(1, rgb(225,225,225)));
+    background: -moz-linear-gradient( center top, rgb(243,243,243) 0%, rgb(225,225,225) 100%);
+
+    /* Rounded Corners */
+    border-radius: 17px; 
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+
+    /* Shadows */
+    box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3); 
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+}
+
+/*** TEXT BOX ***/
+.search_3{
+    background: #fafafa; /* Fallback color for non-css3 browsers */
+
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+    background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid rgba(255,255,255,.8);
+    font-size: 16px;
+    margin: 4px;
+    padding: 5px;
+    width: 250px;
+
+    /* Rounded Corners */
+    border-radius: 17px; 
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+
+    /* Shadows */
+    box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+    -moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+}
+
+/*** USER IS FOCUSED ON TEXT BOX ***/
+.search_3:focus{
+    outline: none;
+    background: #fff; /* Fallback color for non-css3 browsers */
+
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+    background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+}
+
+/*** SEARCH BUTTON ***/
+.submit_3{
+    background: #44921f;/* Fallback color for non-css3 browsers */
+    /* Gradients */
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(79,188,32)), color-stop(0.15, rgb(73,157,34)), color-stop(0.88, rgb(62,135,28)), color-stop(1, rgb(49,114,21)));
+    background: -moz-linear-gradient( center top, rgb(79,188,32) 0%, rgb(73,157,34) 15%, rgb(62,135,28) 88%, rgb(49,114,21) 100%);
+    border: 0;
+    color: #eee;
+    cursor: pointer;
+    float: right;
+    font: 16px 'Raleway', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    margin: 4px 4px 0;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    width: 84px;
+    outline: none;
+
+    /* Rounded Corners */
+    border-radius: 30px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+
+    /* Shadows */
+    box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+    -moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+}
+/*** SEARCH BUTTON HOVER ***/
+.submit_3:hover {
+    background: #4ea923; /* Fallback color for non-css3 browsers */
+
+    /* Gradients */
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
+    background: -moz-linear-gradient( center top, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+}
+.submit_3:active {
+    background: #4ea923; /* Fallback color for non-css3 browsers */
+
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
+    background: -moz-linear-gradient( center bottom, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+}
+
+
+/* search button 4 */
+
+.search-form_4 {
+    background: #e1e1e1; /* Fallback color for non-css3 browsers */
+    width: 365px;
+    margin: 30px auto;
+    /* Gradients */
+    background: -webkit-gradient( linear,left top, left bottom, color-stop(0, rgb(243,243,243)), color-stop(1, rgb(225,225,225)));
+    background: -moz-linear-gradient( center top, rgb(243,243,243) 0%, rgb(225,225,225) 100%);
+    /* Rounded Corners */
+    border-radius: 17px; 
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    /* Shadows */
+    box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3); 
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+}
+/*** TEXT BOX ***/
+.search_4{
+    background: #fafafa; /* Fallback color for non-css3 browsers */
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+    background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid rgba(255,255,255,.8);
+    font-size: 16px;
+    margin: 4px;
+    padding: 5px;
+    width: 250px;
+    /* Rounded Corners */
+    border-radius: 17px; 
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    /* Shadows */
+    box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+    -moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+}
+/*** USER IS FOCUSED ON TEXT BOX ***/
+.search_4:focus{
+    outline: none;
+    background: #fff; /* Fallback color for non-css3 browsers */
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+    background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+}
+
+/*** SEARCH BUTTON ***/
+.submit_4{
+    background: #44921f;/* Fallback color for non-css3 browsers */
+    /* Gradients */
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(40, 94, 178)), color-stop(0.15, rgb(47, 113, 168)), color-stop(0.88, rgb(97, 141, 210)), color-stop(1, rgb(61, 143, 211)));
+    background: -moz-linear-gradient( center top, rgb(79,188,32) 0%, rgb(73,157,34) 15%, rgb(62,135,28) 88%, rgb(49,114,21) 100%);
+    border: 0;
+    color: #eee;
+    cursor: pointer;
+    float: right;
+    font: 16px 'Raleway', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    margin: 4px 4px 0;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    width: 84px;
+    outline: none;
+    /* Rounded Corners */
+    border-radius: 30px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    /* Shadows */
+    box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+    -moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+}
+/*** SEARCH BUTTON HOVER ***/
+.submit_4:hover {
+    background: #4ea923; /* Fallback color for non-css3 browsers */
+    /* Gradients */
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(97, 141, 210)), color-stop(0.15, rgb(61, 143, 211)), color-stop(0.8, rgb(40, 94, 178)), color-stop(1, rgb(47, 113, 168)));
+    background: -moz-linear-gradient( center top, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+}
+.submit_4:active {
+    background: #4ea923; /* Fallback color for non-css3 browsers */
+    /* Gradients */
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(89,222,27)), color-stop(0.15, rgb(83,179,38)), color-stop(0.8, rgb(66,143,27)), color-stop(1, rgb(54,120,22)));
+    background: -moz-linear-gradient( center bottom, rgb(89,222,27) 0%, rgb(83,179,38) 15%, rgb(66,143,27) 80%, rgb(54,120,22) 100%);
+}
+
+/* search button 5 */
+
+.box {
+    margin:30px auto;
+}
+
+/*-------------------------------------*/
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}
+
+/*-------------------------------------*/	
+
+.form-wrapper {
+    width: 330px;
+    padding: 15px;
+    background: #555;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+.form-wrapper input {
+    width: 210px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'Raleway', sans-serif;
+    border: 0;
+    background: #eee;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;      
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: #d83c3c;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+
+.form-wrapper button:hover{		
+    background: #e54040;
+}	
+
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;    
+}
+
+.form-wrapper button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+
+.form-wrapper button:focus:before{
+    border-right-color: #c42f2f;
+}    
+
+.form-wrapper button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+/* search button 6 */
+
+
+
+.button_box2 {
+    margin:30px auto;
+}
+
+/*-------------------------------------*/
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}
+
+/*-------------------------------------*/	
+
+.form-wrapper-2 {
+    width: 330px;
+    padding: 15px;
+    background: #555;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+.form-wrapper-2 input {
+    width: 210px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'Raleway', sans-serif;
+    border: 0;
+    background: #eee;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;      
+}
+
+.form-wrapper-2 input:focus {
+    outline: 0;
+    background: #fff;
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.form-wrapper-2 input::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper-2 input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper-2 input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+
+.form-wrapper-2 button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: #D88F3C;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+
+.form-wrapper-2 button:hover{		
+    background: #FA8807;
+}	
+
+.form-wrapper-2 button:active,
+.form-wrapper-2 button:focus{   
+    background: #c42f2f;    
+}
+
+.form-wrapper-2 button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #D88F3C transparent;
+    top: 12px;
+    left: -6px;
+}
+
+.form-wrapper-2 button:hover:before{
+    border-right-color: #FA8807;
+}
+
+.form-wrapper-2 button:focus:before{
+    border-right-color: #c42f2f;
+}    
+
+.form-wrapper-2 button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+

@@ -22,6 +22,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             join(BASE_DIR, 'templates'),
+            join(BASE_DIR,'bot/templates/bot')
             # insert more TEMPLATE_DIRS here
         ],
         'APP_DIRS': True,
@@ -102,6 +103,7 @@ DATABASES = {
     # Raises ImproperlyConfigured exception if DATABASE_URL not in
     # os.environ
     'default': env.db(),
+
 }
 
 # Internationalization

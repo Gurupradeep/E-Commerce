@@ -1,0 +1,92 @@
+{% load staticfiles %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Varela+Round" rel="stylesheet"/>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css' />
+<!--<link rel="stylesheet" href="{% static 'materialize/css/materialize.css' %}">-->
+<link rel="stylesheet" href="{% static 'chat-box/assets/css/stylesearch.css' %}">
+  <!-- Compiled and minified CSS -->
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+      <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+
+</head>
+<body>
+  
+
+ 
+      <!--<form class="form" action="" method="post" name="new-service" enctype=multipart/form-data>
+      <div class="control-group">
+          
+          <div class="controls">
+               <input id="Search" name="Search" type="text" placeholder="Search.. eg: moto g" class="form-control input-xlarge search-query center-display" required="" length="100">
+          </div>
+     </div>
+      
+      </form>
+    -->
+    <!--<form class="col s12">
+      <div class="row">
+        <div class="input-field col s3 m6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Search</label>
+        </div>
+      </div>
+    </form>-->
+    <br><br>
+    <form id="search-form_3" action="{% url "bot:process" %}" method="POST">
+    {% csrf_token %}
+    <input type="text" class="search_3" name="search_text"/>
+  <input type="submit" class="submit_3" value="Search" />
+</form>
+<br><br>
+      <table class="striped bordered" >
+        <thead>
+          <tr>
+            <th data-field="Id"> ID </th>
+              <th data-field="title">Title</th>
+              <th data-field="brand">Brand</th>
+              <th data-field="oprice">Original Price</th>
+              <th data-field="dprice">Discounted Price </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for r in results %}
+          <tr>
+            <td>{{r.id}}</td>
+            <td>{{r.title}}</td>
+            <td>{{r.brand}}</td>
+            <td>{{r.original_price}}</td>
+            <td>{{r.discounted_price}}</td>
+          </tr>
+          {% endfor %}
+          
+        </tbody>
+      </table>
+</body>
+</html>
+            
+

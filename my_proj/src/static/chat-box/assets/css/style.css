@@ -21,7 +21,7 @@ body {
 }
 
 .chat-box-main {
-    max-height:500px;
+    max-height:600px;
     overflow:auto;
 }
 .chat-box-div {
